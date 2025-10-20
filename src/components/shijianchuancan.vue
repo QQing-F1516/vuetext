@@ -3,10 +3,10 @@
         <hr>
         <h3>事件传参</h3>
         <!-- 1.默认参数 -->
-        <button @click="count1">add 123</button>
+        <button  class="count1"  @click="count1">add 123</button>
         <p>count is {{ countNum }}</p>
         <!-- 2.-->
-         <button @click="newcount">newcount 123</button>
+         <button class="newcount" @click="newcount">newcount 123</button>
          <hr>
     </div>
 </template>
@@ -42,10 +42,10 @@ export default {
     color: royalblue;
     font-size: 35px;
 }
-/* .count1{
-    font-size: 30px;
+.count1{
+    font-size: 25px;
 }
 .newcount{
-    font-size: 30px;
-} */
+    font-size: 25px;
+}
 </style>
