@@ -17,6 +17,12 @@
         <watchzhenting></watchzhenting>
         <biaodanshujubangding></biaodanshujubangding>
         <mobanyingyong></mobanyingyong>
+        <zujianqiantao></zujianqiantao>
+        <zujianchuanzhiprops></zujianchuanzhiprops>
+        <propsjiaoyanA></propsjiaoyanA>
+        <zujianshijian></zujianshijian>
+        <zujianshijianVmodel></zujianshijianVmodel>
+        <chaocaoslots></chaocaoslots>
     </div>
 </template>
 
@@ -37,6 +43,12 @@ import stylebangding from '../components/stylebangding.vue';
 import watchzhenting from '../components/watchzhenting.vue';
 import biaodanshujubangding from '../components/biaodanshujubangding.vue';
 import mobanyingyong from '../components/mobanyingyong.vue';
+import zujianqiantao from '../components/zujianqiantao.vue';
+import zujianchuanzhiprops from '../components/zujianchuanzhiprops.vue';
+import propsjiaoyanA from '../components/propsjiaoyanA.vue';
+import zujianshijian from '../components/zujianshijian.vue';
+import zujianshijianVmodel from '../components/zujianshijianVmodel.vue';
+import chaocaoslots from '../components/chaocaoslots.vue';
 export default {
     name: 'home',
     components: {
@@ -54,7 +66,13 @@ export default {
         stylebangding,
         watchzhenting,
         biaodanshujubangding,
-        mobanyingyong
+        mobanyingyong,
+        zujianqiantao,
+        zujianchuanzhiprops,
+        propsjiaoyanA,
+        zujianshijian,
+        zujianshijianVmodel,
+        chaocaoslots
     },
 }
 </script>

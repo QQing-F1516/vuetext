@@ -7,7 +7,7 @@
         <p>{{ isResults }}</p>
         <p>{{ isDatat() }}</p>
         <hr>
-    </div>
+    </div>  
 </template>
 
 <script>
@@ -53,7 +53,8 @@ export default {
                     "name": "火柴人游戏合集",
                     "img": "//p1.qhimg.com/t0147f6ec029fefe8d7.png"
                 }
-                ]
+                ],
+                text1: []
             }
         };
     },
