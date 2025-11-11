@@ -23,6 +23,8 @@
         <zujianshijian></zujianshijian>
         <zujianshijianVmodel></zujianshijianVmodel>
         <chaocaoslots></chaocaoslots>
+        <shengmingzhouqi></shengmingzhouqi>
+        <shengqingzhouyingyong></shengqingzhouyingyong>
     </div>
 </template>
 
@@ -49,6 +51,8 @@ import propsjiaoyanA from '../components/propsjiaoyanA.vue';
 import zujianshijian from '../components/zujianshijian.vue';
 import zujianshijianVmodel from '../components/zujianshijianVmodel.vue';
 import chaocaoslots from '../components/chaocaoslots.vue';
+import shengmingzhouqi from '../components/shengmingzhouqi.vue';
+import shengqingzhouyingyong from '../components/shengmingzhouqiyingyong.vue';
 export default {
     name: 'home',
     components: {
@@ -72,7 +76,9 @@ export default {
         propsjiaoyanA,
         zujianshijian,
         zujianshijianVmodel,
-        chaocaoslots
+        chaocaoslots,
+        shengmingzhouqi,
+        shengqingzhouyingyong
     },
 }
 </script>

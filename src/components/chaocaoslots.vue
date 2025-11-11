@@ -18,12 +18,23 @@
         <p>{{ msg }}</p>
       </template>
     </slotsxu>
+    <hr>
+    <h3>插槽3</h3>
+    <slotszaixu>
+    <template v-slot:header="slotProps">
+      <h3>{{ slotProps.msg }}</h3>
+    </template>
+    <template #main="slotProps">
+      <p>{{ slotProps.job }}</p>
+    </template>
+    </slotszaixu>
   </div>
 </template>
 
 <script>
 import slotsBase from '../pages/slotsBase.vue';
 import slotsxu from '../pages/slotsxu.vue';
+import slotszaixu from '../pages/slotszaixu.vue';
 export default {
   name: 'chaocaoslots',
   data() {
@@ -33,7 +44,8 @@ export default {
   },
   components: {
     slotsBase,
-    slotsxu
+    slotsxu,
+    slotszaixu
   },
 }
 </script>
