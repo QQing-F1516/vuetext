@@ -33,6 +33,7 @@
         <yilaizhuruparent></yilaizhuruparent>
         <yilaizhuruchild></yilaizhuruchild>
         <yilaizhurusun></yilaizhurusun>
+        <Zujianzucheng></Zujianzucheng>
     </div>
 </template>
 
@@ -66,6 +67,8 @@ import yibuzujian from '../components/yibuzujian.vue';
 import yilaizhuruparent from '../components/yilaizhuruparent.vue';
 import yilaizhuruchild from '../pages/yilaizhuruchild.vue';
 import yilaizhurusun from '../pages/yilaizhurusun.vue';
+import zujianzucheng from '../components/zujianzucheng.vue'
+import Zujianzucheng from '../components/zujianzucheng.vue';
 export default {
     name: 'home',
     components: {
@@ -97,6 +100,7 @@ export default {
         yilaizhuruparent,
         yilaizhuruchild,
         yilaizhurusun,
+        zujianzucheng
     },
 }
 </script>

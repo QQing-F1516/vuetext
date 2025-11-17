@@ -7,12 +7,20 @@
         <hr>
         <zuhexiangyingshi></zuhexiangyingshi>
         <zuhejisuanshuxing></zuhejisuanshuxing>
+        <zuheshijianchuli></zuheshijianchuli>
+        <zuhezhengtingqi></zuhezhengtingqi>
+        <zuhemobanyingyong></zuhemobanyingyong>
+        <zuheshengmingzhouqi></zuheshengmingzhouqi>
     </div>
 </template>
 
 <script>
 import zuhexiangyingshi from "../newcomponents/zuhexiangyingshi.vue";
 import zuhejisuanshuxing from "../newcomponents/zuhejisuanshuxing.vue";
+import zuheshijianchuli from "../newcomponents/zuheshijianchuli.vue";
+import zuhezhengtingqi from "../newcomponents/zuhezhengtingqi.vue";
+import zuhemobanyingyong from "../newcomponents/zuhemobanyingyong.vue";
+import zuheshengmingzhouqi from "../newcomponents/zuheshengmingzhouqi.vue";
  
 export default {
     name: "new",
@@ -24,7 +32,11 @@ export default {
 
     components: {
         zuhexiangyingshi,
-        zuhejisuanshuxing
+        zuhejisuanshuxing,
+        zuheshijianchuli,
+        zuhezhengtingqi,
+        zuhemobanyingyong,
+        zuheshengmingzhouqi
     },
 
     methods() {
