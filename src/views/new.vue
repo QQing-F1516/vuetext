@@ -11,6 +11,8 @@
         <zuhezhengtingqi></zuhezhengtingqi>
         <zuhemobanyingyong></zuhemobanyingyong>
         <zuheshengmingzhouqi></zuheshengmingzhouqi>
+        <usepinia></usepinia>
+        <zuhePorps></zuhePorps>
     </div>
 </template>
 
@@ -21,6 +23,8 @@ import zuheshijianchuli from "../newcomponents/zuheshijianchuli.vue";
 import zuhezhengtingqi from "../newcomponents/zuhezhengtingqi.vue";
 import zuhemobanyingyong from "../newcomponents/zuhemobanyingyong.vue";
 import zuheshengmingzhouqi from "../newcomponents/zuheshengmingzhouqi.vue";
+import usepinia from "../newcomponents/usepinia.vue"
+import zuhePorps from "../newcomponents/zuhePorps.vue";
  
 export default {
     name: "new",
@@ -36,7 +40,9 @@ export default {
         zuheshijianchuli,
         zuhezhengtingqi,
         zuhemobanyingyong,
-        zuheshengmingzhouqi
+        zuheshengmingzhouqi,
+        zuhePorps,
+        usepinia
     },
 
     methods() {
